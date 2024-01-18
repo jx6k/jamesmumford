@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --reg: 400;
+    --bold: 700;
+
+    --dark: #1d1d1d;
+    --light: #ffffff;
+
+    --font: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: var(--font);
+    
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.jamesmumford {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 8rem;
+    gap: 4rem;
+}
+
+.jamesmumford p {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: var(--reg);
+}
+
+.jamesmumford strong {
+    font-weight: var(--bold);
+}
+
+.jamesmumford img {
+    height: 24rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
