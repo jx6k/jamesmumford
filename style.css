@@ -36,6 +36,10 @@ body {
     font-weight: var(--reg);
 }
 
+.jamesmumford br {
+    height: 4rem;
+}
+
 .jamesmumford strong {
     font-weight: var(--bold);
 }
